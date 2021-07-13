@@ -1,0 +1,142 @@
+h1
+{
+    font-family: 'Bangers', Times, serif;
+    /* background-color:royalblue; */
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    color:dimgray;
+    /* border: 25px groove royalblue; */
+}
+*
+{
+    margin:0px;
+}
+body
+{
+    background-image: url("backdrop.jpg");
+    background-size: 1400px 700px;
+}
+.navbar
+{
+    background-color:#1e52a0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* margin-inline-start: 5px; */
+}
+.navbar li
+{
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+    list-style: none; 
+    margin: 13px 10px;
+}
+.navbar ul
+{
+    overflow: auto;
+}
+.navbar li a
+{
+    /* padding: 3px 3px; */
+    padding-left: 3px;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    /* border-right:2px solid pink; */
+}
+.navbar li a:hover
+{
+    color:crimson;
+}
+.search
+{
+    float: right;
+    color: white;
+    padding: 12px 15px;
+}
+.navbar input
+{
+    border: 2px solid brown;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+body {
+    min-height: 100vh;
+}
+footer
+{
+    background-color:darkcyan;
+    font-weight: bold;
+    padding: 10px 5px;
+    text-align:center;
+    color:black;
+    margin-bottom: 1px;
+    position:sticky;
+    top:100%;
+}
+p,ol
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height:30px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color:black;
+}
+
+
+h3
+{
+    
+    font-family: 'Ubuntu', sans-serif;
+    background-color:darkblue;
+    color:gold;
+    margin:0px;
+    padding: 10px 80px;
+
+}
+.contact li a
+{
+    text-decoration: none;
+    color:darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact li:hover
+{
+    color:burlywood;
+}
+.contact li a:hover
+{
+    color:rgb(161, 128, 135);
+}
+.donatebutton
+{
+    text-align: center;
+    /* border:10px groove #1e40a0; */
+    border: 1px solid #373c58;
+    width: 300px;
+    height:100px;
+    padding:25px 0px;
+    margin:auto;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px #0b152d;
+    margin-bottom:35px;
+}
+.donatebutton:hover
+{
+    border-color:#1e52a0;
+}
+.donatebutton :active
+{
+    background-color:#0b152d;
+}
+.razorpay-embed-btn
+{
+    margin-bottom:5px;
+}
